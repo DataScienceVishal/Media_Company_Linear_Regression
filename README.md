@@ -16,4 +16,4 @@ Linear regression is employed to model the relationship between viewership metri
 The project utilizes numpy, matplotlib, seaborn, datetime, sklearn, and statsmodels for data manipulation, visualization, and regression analysis.
 
 **Model Performance:**  
-The developed linear regression model achieved an 82% R-squared value, indicating strong predictive capability and effective capture of viewership variability.
+The final linear regression model achieved an R-squared of 0.803, the highest of roughly ten successive OLS specifications tried in the notebook. This is an in-sample fit on all 80 rows of the dataset; the notebook has no train/test split and no held-out data, so 0.803 measures how well the model describes the data it was fitted on, not its predictive performance on unseen data.
